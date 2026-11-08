@@ -1,0 +1,14 @@
+{
+  "name": "mmeschools",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "MMESCHOOLS: notes, snap-to-text OCR, question forge and live tests for teachers. Zero dependencies.",
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning launch.js",
+    "server": "node --disable-warning=ExperimentalWarning server.js",
+    "test": "node --disable-warning=ExperimentalWarning --test \"tests/**/*.test.js\""
+  },
+  "engines": { "node": ">=22.13" },
+  "dependencies": {}
+}

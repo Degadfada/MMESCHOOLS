@@ -1,0 +1,11 @@
+# runtime data (keep the seed model + word list)
+data/*.db
+data/*.db-*
+data/pages/
+data/backups/
+data/emnist/
+data/models/teachers/
+node_modules/
+
+# cloudflared is downloaded on first start
+bin/
